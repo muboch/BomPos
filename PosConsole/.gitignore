@@ -3,6 +3,7 @@ dist
 .tmp
 .sass-cache
 .settings
+test
 bower_components
 /target/
 /.idea/

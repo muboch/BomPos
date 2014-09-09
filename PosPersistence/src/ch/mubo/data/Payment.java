@@ -1,8 +1,3 @@
-/**
- * File Name: SalesDetail.java
- * 
- */
-
 package ch.mubo.data;
 
 import javax.persistence.Column;
@@ -11,14 +6,9 @@ import javax.persistence.Id;
 
 import ch.mubo.api.EntityObject;
 
-/**
- * TD2:www.mubo.ch Auto-generated comment for class
- *
- * @author www.mubo.ch
- */
 @Entity
-public class SalesDetails implements EntityObject {
-
+public class Payment implements EntityObject {
+	
 	@Id
 	@Column(name = "ID")
 	private String id;

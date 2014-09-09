@@ -3,8 +3,14 @@
 	<persistence-unit name="PosPersistence">
 		<class>ch.mubo.data.SalesDetails</class>
 		<class>ch.mubo.data.Sales</class>
-		<class>ch.mubo.data.Products</class>
+		<class>ch.mubo.data.Product</class>
 		<class>ch.mubo.data.Shops</class>
 		<class>ch.mubo.data.Vendors</class>
+		<class>ch.mubo.data.CashRegister</class>
+		<class>ch.mubo.data.Ticket</class>
+		<class>ch.mubo.data.Payment</class>
+		<class>ch.mubo.data.Category</class>
+		<class>ch.mubo.data.Image</class>
+		<class>ch.mubo.data.ProductEan</class>
 	</persistence-unit>
 </persistence>

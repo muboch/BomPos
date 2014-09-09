@@ -1,13 +1,15 @@
 /**
  * File Name: Shops.java
  * 
- * Copyright (c) 2014 BISON Schweiz AG, All Rights Reserved.
  */
 
 package ch.mubo.data;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
+import ch.mubo.api.EntityObject;
 
 /**
  * TD2:www.mubo.ch Auto-generated comment for class
@@ -15,9 +17,20 @@ import javax.persistence.Id;
  * @author www.mubo.ch
  */
 @Entity
-public class Shops {
+public class Shops implements EntityObject {
 
-  @Id
-  private Integer id;
+	@Id
+	@Column(name = "ID")
+	private String id;
+
+	@Override
+	public String getId() {
+		return id;
+	}
+
+	@Override
+	public void setId(String id) {
+		this.id = id;
+	}
 
 }
