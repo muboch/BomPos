@@ -18,7 +18,7 @@ module.exports = function (grunt) {
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
-    dist: 'dist'
+    dist: grunt.option('compiledResources') || 'distribution/bin/META-INF/resources'
   };
 
   // Define the configuration for all the tasks
@@ -311,8 +311,10 @@ module.exports = function (grunt) {
             '.htaccess',
             '*.html',
             'views/{,*/}*.html',
-            'images/{,*/}*.{webp}',
-            'fonts/*'
+            'images/{,*/}*.{webp,png,jpg,jpeg,gif,svg}',
+            'fonts/*',
+            'scripts/*',
+            'styles/*'
           ]
         }, {
           expand: true,

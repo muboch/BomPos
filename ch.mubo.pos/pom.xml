@@ -11,8 +11,8 @@
   <modules>
     <module>../ch.mubo.pos.service</module>
     <module>../ch.mubo.pos.persistence</module>
-    <module>../ch.mubo.pos.ear</module>
-    <module>../ch.mubo.pos.client</module>
+	<module>../ch.mubo.pos.client</module>
+	<module>../ch.mubo.pos.ear</module>
   </modules>
   <properties>
     <client.compiled.folder>distribution/bin</client.compiled.folder>
