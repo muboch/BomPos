@@ -1,0 +1,30 @@
+<!-- Add your site or application content here -->
+<div class="container" ng-controller="LoginCtrl">
+	<form id="form-signin" name="form-signin">
+		<div class="form-signin">
+			<div class="logo" align="center">
+				<img src="images/img04.jpg" />
+			</div>
+			<h1 class="text-muted" align="center">Please Login</h1>
+			<div class="form-group">
+				<input type="text" name="username" value="" class="form-control"
+					placeholder="Benutzername" required="required"
+					data-autofocus="autofocus" data-autosubmit="autosubmit" ng-model="user.username">
+			</div>
+			<div class="form-group">
+				<input type="password" name="password" value="" class="form-control"
+					placeholder="Passwort" required="required"
+					data-autofocus="autofocus" data-autosubmit="autosubmit" ng-model="user.userpassword">
+			</div>
+			</br>
+			<div class="form-group row">
+				<div class="col-sm-3"></div>
+				<div class="col-sm-6">
+					<button class="btn btn-lg btn-primary btn-block" type="submit"
+						name="login" ng-click="login(user)" ng-disabled="form-signin.$invalid">Anmelden
+					</button>
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
