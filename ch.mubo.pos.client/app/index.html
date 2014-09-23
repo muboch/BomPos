@@ -17,10 +17,42 @@
 <link rel="stylesheet" href="styles/signin.css">
 <!-- endbuild -->
 </head>
-<body>
+<body ng-cloak>
 
-	<div class="container" ng-view></div>
-	<!-- <ng-view></ng-view>-->
+	<div class="jumbotron text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col col-lg-12 col-sm-12">
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="navbar navbar-fixed-top navbar-inverse">
+	<div class="container">
+		
+		<button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target=".navbar-collapse">
+			<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+				class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#/pos"> <img src="images/img05.jpg" />
+			MuBo
+			<button ng-show=true type="button" class="btn btn-danger square-btn-adjust">
+								Logout 	
+							</button>
+		</a>
+		<button ng-show=true type="button" class="btn btn-danger square-btn-adjust">
+								Logout 	
+							</button>
+
+	</div>
+	<!-- /.container -->
+</div>
+
+	<!--<div class="container-fluid" ng-view></div>-->
+	 <ng-view></ng-view>
 
 	<!-- Footer: will be always displayed -->
 	<div class="container">

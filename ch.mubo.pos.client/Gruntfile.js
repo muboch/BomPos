@@ -71,7 +71,7 @@ module.exports = function (grunt) {
         hostname: 'localhost',
         livereload: 35729
       },
-      livereload: {
+      livereload:{
         options: {
           open: true,
           middleware: function (connect) {
@@ -313,7 +313,7 @@ module.exports = function (grunt) {
             'views/{,*/}*.html',
             'images/{,*/}*.{webp,png,jpg,jpeg,gif,svg}',
             'fonts/*',
-            'scripts/*',
+            'scripts/{,*/}*',
             'styles/*'
           ]
         }, {

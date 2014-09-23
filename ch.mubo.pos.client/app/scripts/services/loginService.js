@@ -3,7 +3,8 @@
 posbom.factory('loginService', function($http){
 	return{
 		login:function(user,scope){
-			if (user.username ='test') scope.msgtxt='crect information'
+			console.log('now in login service');
+			if (user.username ='test') scope.msgtxt='correct information';
 			else scope.msgtxt='incorrect inforamtion'; 
 			
 		}

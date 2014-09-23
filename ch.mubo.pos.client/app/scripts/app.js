@@ -22,17 +22,17 @@ var posbom  = angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/login.html',
-        controller: 'MainCtrl'
+        controller: 'loginCtrl'
       })
       .when('/login', {
         templateUrl: 'views/login.html',
-        controller: 'LoginCtrl'
+        controller: 'loginCtrl'
       })
       .when('/pos', {
         templateUrl: 'views/pos.html',
-        controller: 'AboutCtrl'
+        controller: 'posCtrl'
       })
       .otherwise({
-        redirectTo: '/login.html'
+        redirectTo: 'views/login.html'
       });
   });

@@ -1,8 +1,9 @@
 'use strict';
 
-posbom.controller('LoginCtrl', function($scope,loginService){
+posbom.controller('loginCtrl', function($scope,loginService){
 	$scope.msgtxt='';
 	$scope.login = function(user){
+		console.log('bin drin');
 		loginService.login(user,$scope); //call login service
 	}
 });
