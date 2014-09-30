@@ -4,12 +4,11 @@
 	<parent>
 		<groupId>ch.mubo.pos</groupId>
 		<artifactId>mubo.pos</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 		<relativePath>../ch.mubo.pos/pom.xml</relativePath>
 	</parent>
 
 	<artifactId>ch.mubo.pos.service</artifactId>
-	<version>0.0.1</version>
 	<dependencies>
 		<dependency>
 			<groupId>ch.mubo.pos</groupId>

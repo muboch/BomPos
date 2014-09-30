@@ -4,12 +4,11 @@
   <parent>
 		<groupId>ch.mubo.pos</groupId>
 		<artifactId>mubo.pos</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 		<relativePath>../ch.mubo.pos/pom.xml</relativePath>
 	</parent>
   
   <artifactId>ch.mubo.pos.persistence</artifactId>
-  <version>0.0.1</version>
   <dependencies>
     <dependency>
       <groupId>org.hibernate</groupId>
@@ -22,7 +21,7 @@
       <version>5.1.31</version>
     </dependency>
   </dependencies>
-  <build>
+  <!-- build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
@@ -42,5 +41,5 @@
         </configuration>
       </plugin>
     </plugins>
-  </build>
+  </build> -->
 </project>

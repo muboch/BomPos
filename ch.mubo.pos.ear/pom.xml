@@ -4,28 +4,18 @@
 	<parent>
 		<groupId>ch.mubo.pos</groupId>
 		<artifactId>mubo.pos</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 		<relativePath>../ch.mubo.pos/pom.xml</relativePath>
 	</parent>
 
 	<artifactId>ch.mubo.pos.ear</artifactId>
-	<version>0.0.1</version>
 	<packaging>ear</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>ch.mubo.pos</groupId>
-			<artifactId>ch.mubo.pos.persistence</artifactId>
-			<version>0.0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.mubo.pos</groupId>
-			<artifactId>ch.mubo.pos.service</artifactId>
-			<version>0.0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.mubo.pos</groupId>
-			<artifactId>ch.mubo.pos.client</artifactId>
+			<artifactId>ch.mubo.pos.web</artifactId>
+			<type>war</type>
 			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
@@ -35,9 +25,16 @@
 				<artifactId>maven-ear-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
-					<earSourceDirectory>EarContent</earSourceDirectory>
-					<version>6</version>
-					<defaultLibBundleDir>lib</defaultLibBundleDir>
+					<version>7</version>
+					<defaultLibBundleDir>lib/</defaultLibBundleDir>
+					<skinnyWars>true</skinnyWars>
+					<modules>
+						<webModule>
+							<groupId>ch.mubo.pos</groupId>
+							<artifactId>ch.mubo.pos.web</artifactId>
+							<contextRoot>bompos/</contextRoot>
+						</webModule>
+					</modules>
 				</configuration>
 			</plugin>
 		</plugins>
