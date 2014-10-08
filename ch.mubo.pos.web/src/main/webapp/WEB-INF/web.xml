@@ -7,16 +7,16 @@
 	<session-config>
 		<session-timeout>300</session-timeout>
 	</session-config>
-	<servlet>
+	<!--servlet>
 		<servlet-name>javax.ws.rs.core.Application</servlet-name>
 		<load-on-startup>1</load-on-startup>
-	</servlet>
+	</servlet-->
 	<!-- context-param> <param-name>resteasy.providers</param-name> <param-value>com.bison.erp.distribution.marketing.commercialagent.web.util.JacksonProducer</param-value> 
 		</context-param -->
-	<servlet-mapping>
+	<!--servlet-mapping>
 		<servlet-name>javax.ws.rs.core.Application</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping-->
 	<!-- security-constraint>
 		<web-resource-collection>
 			<web-resource-name>All resources</web-resource-name>
