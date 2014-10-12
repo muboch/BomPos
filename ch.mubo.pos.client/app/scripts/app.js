@@ -24,10 +24,6 @@ var posbom  = angular
         templateUrl: 'views/login.html',
         controller: 'loginCtrl'
       })
-      .when('/login', {
-        templateUrl: 'views/login.html',
-        controller: 'loginCtrl'
-      })
       .when('/pos', {
         templateUrl: 'views/pos.html',
         controller: 'posCtrl'
