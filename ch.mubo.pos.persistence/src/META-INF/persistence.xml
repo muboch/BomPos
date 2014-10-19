@@ -12,5 +12,6 @@
 		<class>ch.mubo.data.Category</class>
 		<class>ch.mubo.data.Image</class>
 		<class>ch.mubo.data.ProductEan</class>
+		<class>ch.mubo.data.Employee</class>
 	</persistence-unit>
 </persistence>

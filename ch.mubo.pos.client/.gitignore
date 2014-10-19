@@ -8,3 +8,5 @@ bower_components
 /target/
 /.idea/
 .classpath
+.DS_Store
+package.json

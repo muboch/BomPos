@@ -13,6 +13,11 @@
 	
   
 	<dependencies>
+	<dependency>
+	<groupId>javax</groupId>
+	<artifactId>javaee-api</artifactId>
+	<version>7.0</version>
+</dependency>
 		<dependency>
 			<groupId>ch.mubo.pos</groupId>
 			<artifactId>ch.mubo.pos.service</artifactId>

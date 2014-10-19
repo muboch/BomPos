@@ -18,4 +18,5 @@
     <client.compiled.folder>distribution/bin</client.compiled.folder>
     <client.compiled.folder.structure>${client.compiled.folder}/META-INF/resources</client.compiled.folder.structure>
   </properties>
+  
 </project>

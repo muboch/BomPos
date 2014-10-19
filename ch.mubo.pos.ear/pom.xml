@@ -32,7 +32,7 @@
 						<webModule>
 							<groupId>ch.mubo.pos</groupId>
 							<artifactId>ch.mubo.pos.web</artifactId>
-							<contextRoot>bompos/</contextRoot>
+							<contextRoot>bompos</contextRoot>
 						</webModule>
 					</modules>
 				</configuration>
