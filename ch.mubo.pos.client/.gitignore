@@ -10,3 +10,4 @@ bower_components
 .classpath
 .DS_Store
 package.json
+/bin/

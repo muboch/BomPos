@@ -1,4 +1,4 @@
-package ch.mubo.data;
+package ch.mubo.pos.persistence.data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,8 +9,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import ch.mubo.api.EntityObject;
-import ch.mubo.api.EntityPlugin;
+import ch.mubo.pos.persistence.api.EntityObject;
+import ch.mubo.pos.persistence.api.EntityPlugin;
 
 /**
  * Entity implementation class for Entity: {@link Product}

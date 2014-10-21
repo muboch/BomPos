@@ -1,4 +1,4 @@
-package ch.mubo.api;
+package ch.mubo.pos.persistence.api;
 
 public interface EntityObject {
 	

@@ -1,24 +1,14 @@
-/**
- * File Name: Vendors.java
- * 
- */
-
-package ch.mubo.data;
+package ch.mubo.pos.persistence.data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import ch.mubo.api.EntityObject;
+import ch.mubo.pos.persistence.api.EntityObject;
 
-/**
- * TD2:www.mubo.ch Auto-generated comment for class
- *
- * @author www.mubo.ch
- */
 @Entity
-public class Vendors implements EntityObject {
-
+public class Payment implements EntityObject {
+	
 	@Id
 	@Column(name = "ID")
 	private String id;

@@ -1,11 +1,11 @@
 
-package ch.mubo.data;
+package ch.mubo.pos.persistence.data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-import ch.mubo.api.EntityObject;
+import ch.mubo.pos.persistence.api.EntityObject;
 
 /**
  * TD2:mustapha.bouaaoud Auto-generated comment for class

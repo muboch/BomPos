@@ -1,12 +1,12 @@
-package ch.mubo.data;
+package ch.mubo.pos.persistence.data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EntityListeners;
 import javax.persistence.Id;
 
-import ch.mubo.api.EntityObject;
-import ch.mubo.api.EntityPlugin;
+import ch.mubo.pos.persistence.api.EntityObject;
+import ch.mubo.pos.persistence.api.EntityPlugin;
 
 @Entity(name="EMPLOYEE")
 @EntityListeners(value = EntityPlugin.class)

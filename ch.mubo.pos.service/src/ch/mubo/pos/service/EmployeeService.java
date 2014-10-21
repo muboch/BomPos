@@ -2,7 +2,7 @@ package ch.mubo.pos.service;
 
 import java.util.List;
 
-import ch.mubo.data.Employee;
+import ch.mubo.pos.persistence.data.Employee;
 
 public class EmployeeService {
 

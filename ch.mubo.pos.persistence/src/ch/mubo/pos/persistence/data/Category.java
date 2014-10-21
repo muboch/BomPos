@@ -1,12 +1,12 @@
-package ch.mubo.data;
+package ch.mubo.pos.persistence.data;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.*;
 
-import ch.mubo.api.EntityObject;
-import ch.mubo.api.EntityPlugin;
+import ch.mubo.pos.persistence.api.EntityObject;
+import ch.mubo.pos.persistence.api.EntityPlugin;
 
 /**
  * Entity implementation class for Entity: Category
