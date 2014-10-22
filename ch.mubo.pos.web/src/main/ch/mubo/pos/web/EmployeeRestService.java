@@ -1,5 +1,5 @@
 
-package ch.mubo.pos.web;
+package main.ch.mubo.pos.web;
 
 import static javax.ws.rs.core.MediaType.APPLICATION_JSON;
 
