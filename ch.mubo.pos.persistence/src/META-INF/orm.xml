@@ -7,8 +7,7 @@
     All db objects will be placed within this schema. 
     No DMLs, queries, in JPQL or Criteria API or initial sql script (defined in persistence.xml) need to be adapted. 
     Apart from ORM.xml whole application remains schema agnostic as it was. -->
-      <schema>MARKETING_COMMERCIALAGENT</schema>
+      <schema>POS_BOM</schema>
     </persistence-unit-defaults>
   </persistence-unit-metadata>
-
 </entity-mappings>
