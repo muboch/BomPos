@@ -7,8 +7,7 @@
  * # MainCtrl
  * Controller of the posConsoleApp
  */
-angular.module('posConsoleApp')
-  .controller('MainCtrl', function ($scope) {
+posbom.controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

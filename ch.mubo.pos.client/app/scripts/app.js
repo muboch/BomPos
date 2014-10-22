@@ -17,8 +17,9 @@ var posbom  = angular
     'ngRoute',
     'ngSanitize',
     'ngTouch'
-  ])
-  .config(function ($routeProvider) {
+  ]);
+
+posbom.config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/login.html',
@@ -28,7 +29,13 @@ var posbom  = angular
         templateUrl: 'views/pos.html',
         controller: 'posCtrl'
       })
+      .when('/employee', {
+        templateUrl: 'views/employee.html',
+        controller: 'employeeCtrl'
+      })
       .otherwise({
         redirectTo: 'views/login.html'
       });
   });
+
+/* posbom.factory */

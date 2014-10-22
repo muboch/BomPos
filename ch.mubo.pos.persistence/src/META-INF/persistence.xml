@@ -24,6 +24,6 @@
     <property name="javax.persistence.schema-generation.drop-source" value="metadata" />
     <!-- the pointer to DDL script. it could be DB specific. -->
     <property name="javax.persistence.schema-generation.create-script-source" value="META-INF/CREATESCHEMA.sql" />
-    <!-- property name="javax.persistence.sql-load-script-source" value="META-INF/initialData.sql" / -->
+    <property name="javax.persistence.sql-load-script-source" value="META-INF/initialData.sql"/>
   </properties>
 </persistence>

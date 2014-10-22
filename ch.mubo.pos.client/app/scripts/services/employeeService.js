@@ -1,6 +1,6 @@
 'use strict';
 
-posbom.factory('loginService', function($http){
+posbom.factory('employeeService', function($http){
 	return{
 		login:function(user,scope){
 			console.log('now in login service');

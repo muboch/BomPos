@@ -1,6 +1,6 @@
 'use strict';
 
-posbom.controller('employeeCtrl', function($scope,loginService){
+posbom.controller('employeeCtrl', function($scope, employeeService){
 	$scope.msgtxt='';
 	$scope.login = function(user){
 		console.log('bin drin');
