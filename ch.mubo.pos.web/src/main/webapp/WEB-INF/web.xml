@@ -15,7 +15,7 @@
 		</context-param -->
 	<servlet-mapping>
 		<servlet-name>javax.ws.rs.core.Application</servlet-name>
-		<url-pattern>/posrest/*</url-pattern>
+		<url-pattern>/services/*</url-pattern>
 	</servlet-mapping>
 	<!-- security-constraint>
 		<web-resource-collection>
